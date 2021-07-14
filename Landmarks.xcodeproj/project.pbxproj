@@ -15,6 +15,7 @@
 		7DCF8F46269DC755001085C1 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF8F45269DC755001085C1 /* LandmarkList.swift */; };
 		7DCF8F48269DC9C7001085C1 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF8F47269DC9C7001085C1 /* LandmarkDetail.swift */; };
 		AB4A8A2C269B294D00A7400C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4A8A2B269B294D00A7400C /* ModelData.swift */; };
+		ABD55086269EEB89006C2CE7 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD55085269EEB89006C2CE7 /* FavoriteButton.swift */; };
 		ABECE8F7269A3FB100FAE402 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABECE8F6269A3FB100FAE402 /* LandmarksApp.swift */; };
 		ABECE8F9269A3FB100FAE402 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABECE8F8269A3FB100FAE402 /* ContentView.swift */; };
 		ABECE8FB269A3FB300FAE402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABECE8FA269A3FB300FAE402 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 		7DCF8F45269DC755001085C1 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		7DCF8F47269DC9C7001085C1 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		AB4A8A2B269B294D00A7400C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		ABD55085269EEB89006C2CE7 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		ABECE8F3269A3FB100FAE402 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABECE8F6269A3FB100FAE402 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		ABECE8F8269A3FB100FAE402 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,11 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				ABECE8F8269A3FB100FAE402 /* ContentView.swift */,
-				7D4337BE269A627600E5EDD0 /* CircleImage.swift */,
-				7D4337C0269A640600E5EDD0 /* MapView.swift */,
-				7DCF8F43269DC3FF001085C1 /* LandmarkRow.swift */,
-				7DCF8F45269DC755001085C1 /* LandmarkList.swift */,
-				7DCF8F47269DC9C7001085C1 /* LandmarkDetail.swift */,
+				ABD55089269EEC5E006C2CE7 /* Landmarks */,
+				ABD55087269EEC3A006C2CE7 /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,6 +115,26 @@
 				7D4337C2269A6A2400E5EDD0 /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		ABD55087269EEC3A006C2CE7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7D4337BE269A627600E5EDD0 /* CircleImage.swift */,
+				7D4337C0269A640600E5EDD0 /* MapView.swift */,
+				ABD55085269EEB89006C2CE7 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		ABD55089269EEC5E006C2CE7 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				7DCF8F43269DC3FF001085C1 /* LandmarkRow.swift */,
+				7DCF8F45269DC755001085C1 /* LandmarkList.swift */,
+				7DCF8F47269DC9C7001085C1 /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 		ABECE8EA269A3FB100FAE402 = {
@@ -311,6 +330,7 @@
 				ABECE8F9269A3FB100FAE402 /* ContentView.swift in Sources */,
 				AB4A8A2C269B294D00A7400C /* ModelData.swift in Sources */,
 				ABECE8F7269A3FB100FAE402 /* LandmarksApp.swift in Sources */,
+				ABD55086269EEB89006C2CE7 /* FavoriteButton.swift in Sources */,
 				7DCF8F46269DC755001085C1 /* LandmarkList.swift in Sources */,
 				7DCF8F48269DC9C7001085C1 /* LandmarkDetail.swift in Sources */,
 				7D4337C1269A640600E5EDD0 /* MapView.swift in Sources */,
